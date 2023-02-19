@@ -2,12 +2,11 @@
 
 ### 1. bash_operator.py ###
 
-**Description**: 
-
+**Description**: Runs shell commands in the HDFS cli
 
 ### 2. bash_sensor.py ###
 
-**Description**: 
+**Description**:  Checks  if the file _SUCCESS is updated to the current date. If the condition is true, it means that new partitions have been loaded and can be processed
 
 
 ### 3. kubernetes_pod_operator.py ###
